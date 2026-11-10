@@ -1,0 +1,70 @@
+{
+  "course": "java-fundamentals",
+  "language": "java",
+  "language_id": 1062,
+  "entrypoint": "Main.java",
+  "version": 1,
+  "content_hash": "1e7da5f872c08bb4",
+  "lessons": [
+    {
+      "slug": "hello-world",
+      "tests_hash": "2f9cfef41463"
+    },
+    {
+      "slug": "variables-and-types",
+      "tests_hash": "56792339e3f6"
+    },
+    {
+      "slug": "numbers-and-math",
+      "tests_hash": "60f1ecf615cd"
+    },
+    {
+      "slug": "strings",
+      "tests_hash": "b49f6a084cbf"
+    },
+    {
+      "slug": "formatting",
+      "tests_hash": "dd4665394f85"
+    },
+    {
+      "slug": "conditionals",
+      "tests_hash": "5d761abffee5"
+    },
+    {
+      "slug": "loops",
+      "tests_hash": "30dc70f13cde"
+    },
+    {
+      "slug": "methods",
+      "tests_hash": "6711de4bc26c"
+    },
+    {
+      "slug": "classes",
+      "tests_hash": "eb3deb249823"
+    },
+    {
+      "slug": "arrays-and-arraylist",
+      "tests_hash": "6d913b55c2c4"
+    },
+    {
+      "slug": "hashmap",
+      "tests_hash": "98bb6a18870c"
+    },
+    {
+      "slug": "streams",
+      "tests_hash": "0a69df1378da"
+    },
+    {
+      "slug": "inheritance",
+      "tests_hash": "f5cd51860fe0"
+    },
+    {
+      "slug": "interfaces",
+      "tests_hash": "48a14c78204b"
+    },
+    {
+      "slug": "exceptions",
+      "tests_hash": "4bb03b0ef08d"
+    }
+  ]
+}
