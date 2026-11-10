@@ -21,4 +21,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Compile Java sources
-      run: javac */Main.java
+      run: javac Main.java
