@@ -27,11 +27,10 @@ public class Main {
             System.out.println(days + " days " + hours + " hours " + minutes + " minutes " + seconds + " seconds");
         */
             //Lezione 4
-            String[] parts = sc.nextLine().trim().split("\\s+");
-            String surname = parts[parts.length - 1].toUpperCase();
-            String initial = parts[0].substring(0, 1).toUpperCase();
-            System.out.println(surname + ", " + initial + ".");
-
+            String[] Suddivisione = sc.nextLine().trim().split("\\s+");
+            String Cognome = Suddivisione[Suddivisione.length - 1].toUpperCase();
+            String Iniziale = Suddivisione[0].substring(0, 1).toUpperCase();
+            System.out.println(Cognome + ", " + Iniziale + ".");
         }
     }
 }
