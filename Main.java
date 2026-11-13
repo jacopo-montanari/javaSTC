@@ -27,7 +27,12 @@ public class Main {
             System.out.println(days + " days " + hours + " hours " + minutes + " minutes " + seconds + " seconds");
         */
             //Lezione 4
-            //CONTINUA CON LEZIONE 4
+            String line = sc.nextLine();
+            int space = line.indexOf(' ');
+            String linesub = line.substring(space + 1).toUpperCase();
+            String inizialeNome = line.substring(0, 1).toUpperCase();
+            System.out.println(linesub+", "+ inizialeNome + ".");
+
         }
     }
 }
