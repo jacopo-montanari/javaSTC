@@ -25,12 +25,17 @@ public class Main {
             int seconds = remaining % 60;
 
             System.out.println(days + " days " + hours + " hours " + minutes + " minutes " + seconds + " seconds");
-        */
+        
             //Lezione 4
             String[] Suddivisione = sc.nextLine().trim().split("\\s+");
             String Cognome = Suddivisione[Suddivisione.length - 1].toUpperCase();
             String Iniziale = Suddivisione[0].substring(0, 1).toUpperCase();
             System.out.println(Cognome + ", " + Iniziale + ".");
+
+            */
+
+            // Lezione 5
+            
         }
     }
 }
