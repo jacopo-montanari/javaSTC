@@ -32,7 +32,7 @@ public class Main {
             String Iniziale = Suddivisione[0].substring(0, 1).toUpperCase();
             System.out.println(Cognome + ", " + Iniziale + ".");
 
-            */
+            
 
             // Lezione 5
             String name = sc.nextLine();
@@ -40,6 +40,16 @@ public class Main {
             double price = Double.parseDouble(sc.nextLine().trim());
 
             System.out.printf(java.util.Locale.US, "%-12s%4d%10.2f%n", name, qty, qty * price);
+            */
+           // Lezione 6
+           System.out.print("Immetti il valori di un anno: ");
+            int year = sc.nextInt();
+            if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
+                System.out.println("Bisestile");
+            } else {
+                System.out.println("Comune");
+            }
+
         }
     }
 }
