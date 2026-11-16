@@ -35,7 +35,11 @@ public class Main {
             */
 
             // Lezione 5
-            
+            String name = sc.nextLine();
+            int qty = Integer.parseInt(sc.nextLine().trim());
+            double price = Double.parseDouble(sc.nextLine().trim());
+
+            System.out.printf(java.util.Locale.US, "%-12s%4d%10.2f%n", name, qty, qty * price);
         }
     }
 }
